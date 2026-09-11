@@ -19,7 +19,7 @@ npm run dev -- --host 127.0.0.1
 Open:
 
 ```text
-http://127.0.0.1:5173/demo/
+http://127.0.0.1:5173/
 ```
 
 The demo is offline-friendly after its local JavaScript bundle has loaded. It uses no external fonts, images, media, credentials, or downloads.

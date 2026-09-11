@@ -13,7 +13,7 @@ npm ci
 npm run dev -- --host 127.0.0.1
 ```
 
-Open [http://127.0.0.1:5173/demo/](http://127.0.0.1:5173/demo/).
+Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/).
 
 Use **Reset Demo** in the presentation toolbar to restore the fictional mentees, assessment results, feedback, and meeting schedule to their defaults.
 

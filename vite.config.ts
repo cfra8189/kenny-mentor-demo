@@ -1,14 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { resolve } from 'node:path';
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/kenny-mentor-demo/' : '/',
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      input: {
-        demo: resolve(__dirname, 'demo/index.html'),
-      },
-    },
-  },
-});
+}));
